@@ -24,9 +24,16 @@ function checkGrade(form) {
   The while loop will continue until the user 
   enters a number.
 ***********************************************/
+<<<<<<< HEAD
   if(myGrade >= 91) {
+=======
+ while (isNaN(myGrade)) {
+  parseFloat(prompt("Please enter a numerical value."));
+}
+if(myGrade >= 91) {
+>>>>>>> f5a44f4fc817a6f3dd946155c99ffe2c8a1102ad
     alert("Your grade is an A.");
-  }
+   }
   else if(myGrade >= 81 && myGrade <= 90) { 
     alert("Your grade is a B.");
   }
@@ -38,6 +45,7 @@ function checkGrade(form) {
 while (isNaN(myGrade)) {
   myGrade = parseFloat(prompt("Enter a numerical grade value.")); 
 }
+
 
 //-->
 </script>
